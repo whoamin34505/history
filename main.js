@@ -10,9 +10,6 @@ function FindOnPage(inputId) {//ищет текст на странице, в п
  
   if (obj) {
     textToFind = TrimStr(obj.value);//обрезаем пробелы
-  } else {
-    alert("Введенная фраза не найдена");
-    return;
   }
   if (textToFind == "") {
     alert("Вы ничего не ввели");
@@ -20,7 +17,7 @@ function FindOnPage(inputId) {//ищет текст на странице, в п
   }
  
   if(document.body.innerHTML.indexOf(textToFind)=="-1")
-  alert("Ничего не найдено, проверьте правильность ввода!");
+  console.log ("Ничего не найдено, проверьте правильность ввода!");
  
   if(copy_page.length>0)
         document.body.innerHTML=copy_page;
