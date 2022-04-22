@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
-title: Термины по истории
+title: Термины по истории. 
 description: как всегда, ничего лишнего, просто листай ниже, и ищи то, что нужно
+github:
+  is_project_page: false
